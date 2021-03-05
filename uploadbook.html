@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> 
+    <style>
+      *{
+        font-family: Poppins sans-serif;
+      }
+    </style>
+
+    <title>uploadbooks</title>
+
+  </head>
+  <body>
+      <!-- nav -->
+      <div class="container-fluid;">
+        <div class="row">
+          <div class="col-12"
+            style="height: 50px; margin-top: 10px; background-color: white; box-shadow: 12px 2px 4px rgb(204, 204, 204); ">
+            <div class="d-flex flex-row justify-content-between aligin-items-center w-100" style="width: 100%;">
+              <div class="form-group" style="width: 300px; ">
+                <div class="input-group pl-2">
+                  <input class="form-control py-2 border-right-0 border" style="border-top-left-radius: 20px; border-bottom-left-radius:  20px;" type="search" value="search" id="example-search-input">
+                  <span class="input-group-append">
+                      <div class="input-group-text bg-transparent" style="border-top-right-radius: 20px; border-bottom-right-radius: 20px;"><i class="fa fa-search"></i></div>
+                  </span>
+              </div>
+              </div>
+
+              <a href="home.html">
+              <img src="https://res.cloudinary.com/plugin007/image/upload/v1603734215/logoPLUGIN_qsovpm.png" alt=""
+                width="50px" height="30"></a>
+
+                <a href="profile.html">
+                <img src="img/profile.png" style="width: 50px; height: 45px; margin-right: 30px;" alt=""></a>
+              </div>
+          </div>
+        <!-- akhir nav -->
+    <div class="container-fluid">
+        <div class="row" style="height: 100vh;">
+          
+            <div class="col-3" style="box-shadow: 4px 0px 4px rgb(196, 194, 194);">
+                <div class="d-flex  flex-column justify-content-center align-items-center">
+                  <ul class="list-unstyled" style="margin-top: 30px;;">
+                    
+                    <li class="d-flex justify-content-center" style="border: 1px soli;  width:300px; border-radius: 30px;  margin-bottom: 15px;">
+                      <div class="d-flex justify-content-around align-items-center" style="width: 50%; ;">
+                        <img src="img/profile1.png" alt="">
+                        <a href="profile.html" >profile</a>
+                      </div>
+                    </li>
+
+                    <li class="d-flex justify-content-center" style="border: 1px solid #5FA0DE;  width:300px; border-radius: 30px; background-color: #5FA0DE ;">
+                      <div class="d-flex justify-content-around align-items-center" style="width: 50%;">
+                        <img src="img/book.png" alt="">
+                        <a href="books.html" style="color: white;">Books</a>
+                      </div>
+                    </li>
+
+                    <li class="d-flex justify-content-center" style="border: 1px soli;  width:300px; border-radius: 30px;  margin-bottom: 15px;">
+                      <div class="d-flex justify-content-around align-items-center" style="width: 50%; ;">
+                        <img src="img/out.png" alt="">
+                        <a href="out-of-date.html" style="font-size:smaller;" >Out of Datw</a>
+                      </div>
+                    </li>
+
+                    <li class="d-flex justify-content-center" style="border: 1px soli;  width:300px; border-radius: 30px;  margin-bottom: 15px;">
+                      <div class="d-flex justify-content-around align-items-center" style="width: 50%; ;">
+                        <img src="img/borow.png" alt="">
+                        <a href="waiting-borrow.html" >Waiting Borrow</a>
+                      </div>
+                    </li>
+
+                    <li class="d-flex justify-content-center" style="border: 1px soli;  width:300px; border-radius: 30px;  margin-bottom: 15px;">
+                      <div class="d-flex justify-content-around align-items-center" style="width: 50%; ;">
+                        <img src="img/waiting.png" alt="">
+                        <a href="waiting.html" >Waiting</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+
+            <div class="col-8 d-flex justify-content-center align-items-center">
+              <div class="d-flex justify-content-center align-items-center flex-column" style="height: 50%; width: 70%;">
+                  <h1 style="color:black; margin-top: 10%; text-size-adjust: 50px;">Upload Books</h1>
+          
+                  <div>
+                      <label>Title</label>
+                      <div class="form-group" style="width: 500px;">
+                          <input type="text" class="form-control" placeholder="input title" style="border: 1px 
+                          solid color = #5FA0DE; border-radius: 30px; height: 50px; padding-left: 50px;">
+                      </div>
+                      
+                      <label>Creator</label>
+                      <div class="form-group" style="width: 500px;">
+                          <input type="text" class="form-control" placeholder="input Creator" style="border: 1px 
+                          solid color = #5FA0DE; border-radius: 30px; height: 50px; padding-left: 50px;">
+                      </div>
+
+                      <label>Publisher</label>
+                      <div class="form-group" style="width: 500px;">
+                          <input type="text" class="form-control" placeholder="input Publisher" style="border: 1px 
+                          solid color = #5FA0DE; border-radius: 30px; height: 50px; padding-left: 50px;">
+                      </div>
+
+                      <label>ISBN</label>
+                      <div class="form-group" style="width: 500px;">
+                          <input type="text" class="form-control" placeholder="ISBN" style="border: 1px 
+                          solid color = #5FA0DE; border-radius: 30px; height: 50px; padding-left: 50px;">
+                      </div>
+
+
+                      <label>Pages</label>
+                      <div class="form-group" style="width: 500px;">
+                          <input type="text" class="form-control" placeholder="Pages" style="border: 1px 
+                          solid color = #5FA0DE; border-radius: 30px; height: 50px; padding-left: 50px;">
+                      </div>
+
+
+                      <label>Upoad Gambar</label>
+                      <div class="form-group" style="width: 500px;">
+                          <input type="text" class="form-control" placeholder="Drag & Drop File Here" style="border: 1px 
+                          solid color = #5FA0DE; border-radius: 30px; height: 100px; padding-left: 50px;">
+                      </div>
+
+                      <a href="books.html" class="btn w-50px" style="background-color: #5FA0DE; color: white; border-radius: 20px; width: 300px; height: 40px;">Add Books</a>
+
+                  </div>
+              </div>
+          </div>
+          
+          
+          </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
